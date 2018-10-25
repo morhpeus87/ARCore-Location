@@ -84,7 +84,7 @@ public class LocationManager {
             mLocationRequest = new LocationRequest();
             mLocationRequest.setInterval(UPDATE_INTERVAL);
             mLocationRequest.setFastestInterval(UPDATE_INTERVAL);
-            //mLocationRequest.setSmallestDisplacement(SMALLEST_DISPLACEMENT);
+            mLocationRequest.setSmallestDisplacement(SMALLEST_DISPLACEMENT);
             mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
         }
         return mLocationRequest;
