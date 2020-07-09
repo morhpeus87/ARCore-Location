@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../mopar/app/app.iml" filepath="$PROJECT_DIR$/../mopar/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/arcore-location/arcore-location.iml" filepath="$PROJECT_DIR$/arcore-location/arcore-location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arcore-location/arcore-location.iml" filepath="$PROJECT_DIR$/arcore-location/arcore-location.iml" group="arcore-location-fork/arcore-location" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arcore-location-fork.iml" filepath="$PROJECT_DIR$/.idea/modules/arcore-location-fork.iml" group="arcore-location-fork" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/arcore-location-fork-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/arcore-location-fork-app.iml" group="arcore-location-fork/app" />
       <module fileurl="file://$PROJECT_DIR$/../mopar/data-module/data-module.iml" filepath="$PROJECT_DIR$/../mopar/data-module/data-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mopar/mopar.iml" filepath="$PROJECT_DIR$/../mopar/mopar.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mopar/shared-module/shared-module.iml" filepath="$PROJECT_DIR$/../mopar/shared-module/shared-module.iml" />
