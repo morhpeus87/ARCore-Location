@@ -1,6 +1,7 @@
 package uk.co.appoly.arcorelocation;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Handler;
 import android.util.Log;
 
@@ -65,7 +66,7 @@ public class LocationScene {
 
         startCalculationTask();
 
-        deviceLocation = new DeviceLocation(mContext, this);
+        deviceLocation = new DeviceLocation(/*mContext,*/ this);
         deviceOrientation = new DeviceOrientation(context);
         deviceOrientation.resume();
         //test();
